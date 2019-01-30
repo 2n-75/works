@@ -1,5 +1,3 @@
-//2-3-57 2620160536 茂木良介
-
 window.onload = function() {
   var anime_1 = anime({
 

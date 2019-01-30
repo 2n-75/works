@@ -1,13 +1,9 @@
-<!-- 
-2-4-26 2620160515 竹永正輝
--->
-
 <?php
 //formから受け取っているかチェック
-if(isset($_GET["arduinoLightPattern"]) && isset($_GET["arduinoColorPattern"])) {
-  $light=$_GET["arduinoLightPattern"];
-  $color=$_GET["arduinoColorPattern"];
-  }
+if (isset($_GET['arduinoLightPattern']) && isset($_GET['arduinoColorPattern'])) {
+    $light = $_GET['arduinoLightPattern'];
+    $color = $_GET['arduinoColorPattern'];
+}
 ?>
 
 <!DOCTYPE HTML>
@@ -26,14 +22,14 @@ if(isset($_GET["arduinoLightPattern"]) && isset($_GET["arduinoColorPattern"])) {
 <body>
   <?php
   //formから文字列を受け取ったならばjsonファイルに書き込み
-  if(isset($_GET["arduinoLightPattern"])) {
-    $mes=$light.$color;
-    $arr = array(
-      "data" => $mes
+  if (isset($_GET['arduinoLightPattern'])) {
+      $mes = $light.$color;
+      $arr = array(
+      'data' => $mes,
     );
-    $arr = json_encode($arr);
-    file_put_contents("data.json" , $arr);
-    }
+      $arr = json_encode($arr);
+      file_put_contents('data.json', $arr);
+  }
   ?>
   <script type="text/javascript">
 
