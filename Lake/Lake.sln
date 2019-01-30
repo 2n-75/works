@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lake", "Assembly-CSharp-firstpass.csproj", "{4BBBC70C-90A1-209E-A35F-8E9510465CFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lake", "Assembly-CSharp.csproj", "{8ED2ADF7-C1E2-1FFD-6FAA-1920D26472FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BBBC70C-90A1-209E-A35F-8E9510465CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BBBC70C-90A1-209E-A35F-8E9510465CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BBBC70C-90A1-209E-A35F-8E9510465CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BBBC70C-90A1-209E-A35F-8E9510465CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ED2ADF7-C1E2-1FFD-6FAA-1920D26472FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ED2ADF7-C1E2-1FFD-6FAA-1920D26472FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ED2ADF7-C1E2-1FFD-6FAA-1920D26472FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ED2ADF7-C1E2-1FFD-6FAA-1920D26472FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

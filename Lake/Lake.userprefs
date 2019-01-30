@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WebCamController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/ColorHSV.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/WebCamController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SerialController.cs" Line="38" Column="16" />
+      <File FileName="Assets/Scripts/effectsControl.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MainParticle.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/DefaultParticle.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
