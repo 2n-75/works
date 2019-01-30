@@ -1,0 +1,71 @@
+html, body {
+  background:black;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.create {
+  position: absolute;
+  top: 35px;
+  left: 220px;
+}
+
+.light path {
+  stroke-width: 2;
+}
+
+
+.light, .light svg {
+  fill: rgb(255, 255, 255);
+  height: 150px;
+  margin: auto;
+  left: 250px;
+  top: -1%;
+  -webkit-transform: scale(0.75);
+  -moz-transform: scale(0.1);
+  -ms-transform: scale(0.1);
+  -o-transform: scale(0.1);
+  position: absolute;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.list {
+  position: absolute;
+  top: 130px;
+  left: 0px;
+}
+
+a.connect {
+  position: absolute;
+  top: 175px;
+  left: 92px;
+}
+a.delete {
+  position: absolute;
+  top: 147px;
+  left: 1185px;
+}
+
+a.title {
+  position: absolute;
+  top: 355px;
+  left: 92px;
+  color: white;
+  font-size: 20px;
+}
+
+.image{
+  position: relative;
+}
+
+a.gif{
+  position: absolute;
+}
+
+a.color{
+  position: absolute;
+}

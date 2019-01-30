@@ -1,0 +1,138 @@
+html, body {
+  background: black;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.light, .light svg {
+  fill: rgb(255, 255, 255);
+  height: 150px;
+  margin: auto;
+  left: 250px;
+  top: -1%;
+  -webkit-transform: scale(0.75);
+  -moz-transform: scale(0.1);
+  -ms-transform: scale(0.1);
+  -o-transform: scale(0.1);
+  position: absolute;
+}
+
+.light path {
+  stroke-width: 2;
+}
+
+a {
+  text-decoration: none;
+}
+
+.image {
+  position: relative;
+  width: 252px;
+  height: 190px;
+}
+
+.image a {
+  display: block;
+}
+
+a.background {
+  width: 250px;
+  height: 188px;
+}
+
+a.lp1 {
+  position: absolute;
+  top: 210px;
+  left: 140px;
+}
+
+a.lp2 {
+  position: absolute;
+  top: 210px;
+  left: 290px;
+}
+
+a.lp3 {
+  position: absolute;
+  top: 210px;
+  left: 440px;
+}
+
+a.lp4 {
+  position: absolute;
+  top: 210px;
+  left: 590px;
+}
+
+a.lp5 {
+  position: absolute;
+  top: 210px;
+  left: 740px;
+}
+
+a.lp6 {
+  position: absolute;
+  top: 300px;
+  left: 140px;
+}
+
+a.lp7 {
+  position: absolute;
+  top: 300px;
+  left: 290px;
+}
+
+a.lp8 {
+  position: absolute;
+  top: 300px;
+  left: 440px;
+}
+
+a.lp9 {
+  position: absolute;
+  top: 300px;
+  left: 590px;
+}
+
+a.lp10 {
+  position: absolute;
+  top: 300px;
+  left: 740px;
+}
+
+a.b1 {
+  position: absolute;
+  top: 448px;
+  left: 1035px;
+}
+
+a.b2 {
+  position: absolute;
+  top: 460px;
+  left: 1102px;
+}
+
+.register{
+  position: absolute;
+  top: 633px;
+  left: 775px;
+}
+
+.list{
+  position: absolute;
+  top: 595px;
+  left: 1152px;
+}
+
+.timelineColor{
+  position: absolute;
+  top: 467px;
+  left: 1163px;
+}
+
+.Arduino{
+  position: absolute;
+  top: 640px;
+  left: 420px;
+}
