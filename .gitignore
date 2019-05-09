@@ -2,7 +2,8 @@
 /tmp
 *.png
 *.gif
-Lake/Assets/Temp
+*.wav
+*.mp3
 
 # Ignore node_modules
 node_modules/
